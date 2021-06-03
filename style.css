@@ -49,7 +49,7 @@ header {
   width: 20px;
   height: 20px;
   color: #acb7c3;
-  margin-right: 80%;
+  align-items: flex-end;
 }
 
 .menu:hover {
