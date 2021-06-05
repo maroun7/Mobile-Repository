@@ -55,7 +55,6 @@ html {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px;
 }
 
 .project-title {
@@ -125,7 +124,6 @@ span {
   font-family: Poppins, sans-serif;
   margin-top: 60px;
   background-image: url(images/base.png);
-  background-color: #fff;
 }
 
 .myself {
