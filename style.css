@@ -55,11 +55,11 @@ html {
   flex: none;
   order: 0;
   flex-grow: 0;
-  margin: 12px 0px;
+  margin: 12px;
 }
 
 .project-title {
-  position: flex;
+  display: flex;
   width: 295px;
   height: 36px;
   font-style: normal;
@@ -79,7 +79,7 @@ html {
 }
 
 span {
-  font-family: "Poppins";
+  font-family: "Poppins",sans-serif;;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -91,7 +91,6 @@ span {
 
 .canopy-color {
   color: #344563;
-  margin-left: 0px;
 }
 
 .tags2 {
@@ -156,8 +155,6 @@ body {
   height: 718px;
   justify-content: flex-start;
   background: #fff;
-  left: 0px;
-  top: 0px;
 }
 
 .status-bar {
@@ -480,13 +477,6 @@ li a:hover {
   font-size: 15px;
   color: #344563;
   margin-left: 10px;
-}
-
-.tags {
-  display: flex;
-  flex-direction: row;
-  align-content: space-around;
-  align-items: center;
 }
 
 .tag-1 {
