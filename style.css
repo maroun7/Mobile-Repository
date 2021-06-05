@@ -216,7 +216,7 @@ li a:hover {
   height: 220px;
   left: 16px;
   top: 16px;
-  background: ;
+  background: url(blog_drbl_4x.png);
   border-radius: 8px;
   flex: none;
   order: 0;
@@ -282,7 +282,7 @@ li a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px;
   position: static;
   width: 55px;
   height: 32px;
@@ -320,7 +320,7 @@ li a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px;
   position: static;
   width: 88px;
   height: 32px;
@@ -359,12 +359,11 @@ li a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 8px 0px;
+  padding: 8px;
   position: static;
   width: 29px;
   height: 32px;
   left: 207px;
-  top: 0px;
   flex: none;
   order: 4;
 }
