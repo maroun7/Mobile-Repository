@@ -207,7 +207,7 @@ li a:hover {
   border-radius: 16px;
   flex: none;
   order: 0;
-  margin: 88px 0px;
+  margin: 88px;
 }
 
 .snapshoot-1 {
@@ -220,7 +220,6 @@ li a:hover {
   border-radius: 8px;
   flex: none;
   order: 0;
-  flex-grow: 0px;
   margin: 12px 0px;
 }
 
@@ -228,7 +227,6 @@ li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   position: static;
   width: 295px;
   height: 288px;
@@ -243,11 +241,9 @@ li a:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  padding: 0px;
   position: static;
   width: 295px;
   height: 80px;
-  left: 0px;
   top: calc(50% - 80px / 2 - 104px);
   flex: none;
   order: 0;
@@ -258,8 +254,6 @@ li a:hover {
   position: static;
   width: 295px;
   height: 36px;
-  left: 0px;
-  top: 0px;
   font-family: monospace;
   font-style: normal;
   font-weight: bold;
@@ -275,11 +269,9 @@ li a:hover {
   display: flex;
   flex-direction: row;
   align-items: center;
-  padding: 0px;
   position: static;
   width: 236px;
   height: 32px;
-  left: 0px;
   top: 48px;
   flex: none;
   order: 1;
@@ -294,8 +286,6 @@ li a:hover {
   position: static;
   width: 55px;
   height: 32px;
-  left: 0px;
-  top: 0px;
   flex: none;
   order: 0;
   margin: 0px 12px;
@@ -305,7 +295,6 @@ li a:hover {
   position: static;
   width: 55px;
   height: 16px;
-  left: 0px;
   top: 8px;
   font-family: monospace;
   font-style: normal;
@@ -315,7 +304,6 @@ li a:hover {
   color: #344563;
   flex: none;
   order: 0;
-  margin: 0px 0px;
 }
 
 .counter-1 {
@@ -339,7 +327,6 @@ li a:hover {
   width: 88px;
   height: 32px;
   left: 87px;
-  top: 0px;
   flex: none;
   order: 2;
   margin: 0px 12px;
@@ -349,7 +336,6 @@ li a:hover {
   position: static;
   width: 88px;
   height: 16px;
-  left: 0px;
   top: 8px;
   font-family: monospace;
   font-style: normal;
@@ -359,7 +345,6 @@ li a:hover {
   color: #7a869a;
   flex: none;
   order: 0;
-  margin: 0px 0px;
 }
 
 .counter-1-1 {
@@ -393,7 +378,6 @@ li a:hover {
   position: static;
   width: 29px;
   height: 16px;
-  left: 0px;
   top: 8px;
   font-family: monospace;
   font-style: normal;
@@ -403,14 +387,12 @@ li a:hover {
   color: #7a869a;
   flex: none;
   order: 0;
-  margin: 0px 0px;
 }
 
 .description-1 {
   position: static;
   width: 295px;
   height: 76px;
-  left: 0px;
   top: 92px;
   font-family: monospace;
   font-style: normal;
@@ -420,5 +402,5 @@ li a:hover {
   color: #344563;
   flex: none;
   order: 1;
-  margin: 12px 0px;
+  margin: 12px;
 }
