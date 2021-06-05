@@ -6,9 +6,11 @@ html {
   height: 100%;
   width: 100%;
 }
-.met{
-  color: #7F8CFF;
+
+.met {
+  color: #7f8cff;
 }
+
 .card-structure {
   display: grid;
   grid-template-rows: 40% 20% 10% 10% 10% 10%;
@@ -16,14 +18,13 @@ html {
 }
 
 .p {
-font-weight: normal;
-font-size: 15px;
-line-height: 24px;
-color: #344563;
-
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
 
-.card-button{
+.card-button {
   display: flex;
   align-items: center;
   text-align: center;
@@ -44,17 +45,17 @@ color: #344563;
 }
 
 .img-displayer {
-position: static;
-width: 295px;
-height: 220px;
-left: 16px;
-top: 16px;
-background: url(blog_drbl_4x.png);
-border-radius: 8px;
-flex: none;
-order: 0;
-flex-grow: 0;
-margin: 12px 0px;
+  position: static;
+  width: 295px;
+  height: 220px;
+  left: 16px;
+  top: 16px;
+  background: url(blog_drbl_4x.png);
+  border-radius: 8px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  margin: 12px 0px;
 }
 
 .project-title {
@@ -70,20 +71,20 @@ margin: 12px 0px;
   margin-bottom: 12px;
 }
 
-.tags
-{  display: flex;
+.tags {
+  display: flex;
   flex-direction: row;
   margin-left: 5%;
   margin-right: 5%;
-
 }
+
 span {
-font-family: "Poppins";
-font-style: normal;
-font-weight: 600;
-font-size: 13px;
-line-height: 16px;
-color: #7A869A;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
   margin-left: auto;
   margin-right: auto;
 }
@@ -128,15 +129,15 @@ color: #7A869A;
   background-color: white;
 }
 
-.myself{
+.myself {
   margin-left: 12px;
-    margin-right: 16px;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #344563;
-    max-width: 300px;
+  margin-right: 16px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  max-width: 300px;
 }
 
 .container {
@@ -387,7 +388,7 @@ li a:hover {
   flex: none;
   order: 1;
   margin: 12px;
-  background:#07e23e;
+  background: #07e23e;
   border-radius: 8px;
 }
 
@@ -444,7 +445,7 @@ li a:hover {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
   margin-left: 10px;
 }
 
@@ -467,7 +468,7 @@ li a:hover {
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  color: #7A869A;
+  color: #7a869a;
   margin-left: 10px;
 }
 
@@ -482,10 +483,10 @@ li a:hover {
 }
 
 .tags {
-   display: flex;
-   flex-direction: row;
-   align-content: space-around;
-   align-items: center;
+  display: flex;
+  flex-direction: row;
+  align-content: space-around;
+  align-items: center;
 }
 
 .tag-1 {
@@ -495,6 +496,6 @@ li a:hover {
   padding: 4px 12px;
   width: 53px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
 }
