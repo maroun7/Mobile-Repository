@@ -1,6 +1,142 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
 html {
   height: 100%;
   width: 100%;
+}
+.met{
+  color: #7F8CFF;
+}
+.card-structure {
+  display: grid;
+  grid-template-rows: 40% 20% 10% 10% 10% 10%;
+  height: 100%;
+}
+
+.p {
+font-weight: normal;
+font-size: 15px;
+line-height: 24px;
+color: #344563;
+
+}
+
+.card-button{
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  color: #396df2;
+  border: 1px solid #6070ff;
+  box-sizing: border-box;
+  border-radius: 8px;
+  height: 48px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+.img-displayer {
+position: static;
+width: 295px;
+height: 220px;
+left: 16px;
+top: 16px;
+background: url(blog_drbl_4x.png);
+border-radius: 8px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 12px 0px;
+}
+
+.project-title {
+  position: flex;
+  width: 295px;
+  height: 36px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.tags
+{  display: flex;
+  flex-direction: row;
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+span {
+font-family: "Poppins";
+font-style: normal;
+font-weight: 600;
+font-size: 13px;
+line-height: 16px;
+color: #7A869A;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.canopy-color {
+  color: #344563;
+  margin-left: 0px;
+}
+
+.tags2 {
+  font-family: "Poppins", sans-serif;
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-start;
+  padding-inline-start: 2px;
+}
+
+.lang-block {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  align-items: center;
+  padding: 4px 12px;
+  height: 24px;
+  background: #ebebff;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.lang-text {
+  list-style-type: none;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+}
+
+.about {
+  font-family: "Poppins", sans-serif;
+  margin-top: 60px;
+  background-image: url(images/base.png);
+  background-color: white;
+}
+
+.myself{
+  margin-left: 12px;
+    margin-right: 16px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    max-width: 300px;
 }
 
 .container {
@@ -192,15 +328,22 @@ li a:hover {
 }
 
 .works {
+  font-family: "Poppins", sans-serif;
+  display: grid;
+  margin-top: 110px;
+}
+
+.card {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  
-  width: 375px;
-  top: 718px;
+  padding: 16px;
+  width: 327px;
+  height: 552px;
+  background: #fff;
+  border: 1px solid #dfe1e6;
+  box-sizing: border-box;
   border-radius: 16px;
-  background: #e20c0c;
-  
+  margin: 40px 12px;
 }
 
 .card-work {
@@ -255,18 +398,6 @@ li a:hover {
   width: 155px;
   height: 80px;
   margin: 12px;
-}
-
-.project-title {
-  display: flex;
-  align-items: flex-start;
-  width: 236px;
-  height: 26px;
-  font-family: monospace;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
-  color: #172b4d;
 }
 
 .frame {
