@@ -74,7 +74,7 @@ html {
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 12px;
   margin-bottom: 12px;
   padding-left: 10px;
@@ -89,12 +89,12 @@ html {
 }
 
 span {
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
   margin-left: auto;
   margin-right: auto;
 }
@@ -118,14 +118,14 @@ span {
   align-items: center;
   padding: 4px 12px;
   height: 24px;
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   margin-right: 10px;
 }
 
 .lang-text {
   list-style-type: none;
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-size: 12px;
   letter-spacing: 0.03em;
   color: #6070ff;
@@ -134,7 +134,7 @@ span {
 .about {
   display: flex;
   flex-direction: column;
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   margin-top: 60px;
   background-image: url(images/base.png);
   background-repeat: no-repeat;
@@ -155,7 +155,7 @@ span {
 }
 
 body {
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 .head {
@@ -229,7 +229,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-  color: #6070FF;
+  color: #6070ff;
   font-family: monospace;
   font-style: normal;
   font-weight: 700;
@@ -262,7 +262,7 @@ body {
 .primary-text {
   display: flex;
   align-items: center;
-  color: #172B4D;
+  color: #172b4d;
   font-family: monospace;
   font-style: normal;
   font-weight: 700;
@@ -297,12 +297,12 @@ body {
   position: static;
   width: 130px;
   height: 24px;
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -316,8 +316,6 @@ body {
   flex-direction: row;
   position: relative;
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   display: inline-block;
 }
 
@@ -338,7 +336,7 @@ li a:hover {
 }
 
 .works {
-  font-family: Poppins, sans-serif;
+  font-family: poppins, sans-serif;
   display: grid;
   margin-top: 110px;
 }
@@ -350,7 +348,7 @@ li a:hover {
   width: 327px;
   height: 552px;
   background: #fff;
-  border: 1px solid #DFE1E6;
+  border: 1px solid #dfe1E6;
   box-sizing: border-box;
   border-radius: 16px;
   margin: 40px 12px;
@@ -360,8 +358,8 @@ li a:hover {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #0E0808;
-  border: 1px solid #07E23E;
+  background: #0e0808;
+  border: 1px solid #07e23e;
   box-sizing: border-box;
   border-radius: 16px;
   height: 552px;
@@ -383,13 +381,13 @@ li a:hover {
 .counter {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
 }
 
 .counter-1 {
   width: 8px;
   height: 8px;
-  background: #C1C7D0;
+  background: #c1c7d0;
 }
 
 .description {
@@ -441,7 +439,7 @@ li a:hover {
   font-size: 20px;
   display: flex;
   align-items: center;
-  color: #000000;
+  color: #000;
   padding-top: 10px;
 }
 
@@ -470,7 +468,7 @@ li a:hover {
   position: static;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   align-items: center;
   margin-top: 12px;
