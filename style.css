@@ -8,7 +8,7 @@ html {
 }
 
 .met {
-  color: #7f8Cff;
+  color: #7f8cff;
   padding-left: 10px;
 }
 
@@ -51,7 +51,7 @@ html {
   cursor: pointer;
 }
 
-.card-button:active{
+.card-button:active {
   background-color: goldenrod;
 }
 
@@ -316,7 +316,6 @@ body {
   flex-direction: row;
   position: relative;
   list-style-type: none;
-  display: inline-block;
 }
 
 li {
@@ -348,7 +347,7 @@ li a:hover {
   width: 327px;
   height: 552px;
   background: #fff;
-  border: 1px solid #dfe1E6;
+  border: 1px solid #dfe1e6;
   box-sizing: border-box;
   border-radius: 16px;
   margin: 40px 12px;
